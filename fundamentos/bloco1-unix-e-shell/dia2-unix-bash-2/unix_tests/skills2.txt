@@ -1,0 +1,9 @@
+Bash
+Comunicação
+Git
+Github
+Internet
+JS
+Phyton
+Unix
+Liderança

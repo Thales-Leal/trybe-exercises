@@ -1,0 +1,10 @@
+amarelo
+azul
+banana
+laraja
+laranja
+maçã
+marrom
+morango
+preto
+vermelho
