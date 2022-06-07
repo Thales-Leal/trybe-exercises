@@ -1,4 +1,0 @@
-Forma de mover uma pasta pra cima: mv trybe.txt ../Parte1
-
-Forma de procurar arquivos por nome/tipo de arquivo: ls *.txt (ls *nome)
-
