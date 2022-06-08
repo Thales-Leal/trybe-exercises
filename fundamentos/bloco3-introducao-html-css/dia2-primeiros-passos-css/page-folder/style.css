@@ -1,0 +1,43 @@
+h1 {
+  color: orange;
+  font-size: 65px;
+  font-family: sans-serif;
+}
+
+h2 {
+  color: white;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+#d2id {
+  color: red;
+  font-style: normal;
+}
+
+p {
+  color: white;
+  font-weight: 600;
+  font-size: 3em;
+}
+
+ul {
+  color: white;
+  background-color: red;
+  line-height: 50px;
+  text-align: left;
+}
+
+body {
+  background-color: black;
+  font-size: 16px;
+}
+
+.p-ul {
+  background-color: red;
+  color: white;
+}
+
+a {
+  background-color: white;
+}
