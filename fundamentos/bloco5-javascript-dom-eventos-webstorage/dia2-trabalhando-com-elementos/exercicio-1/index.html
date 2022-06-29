@@ -67,7 +67,24 @@
       newTitle.innerText = 'Exercício 5.2 - JavaScript DOM';
 
       tagBody.appendChild(newTitle);
+
+      // 2.
+
+      let mainTag = document.createElement('main');
+
+      mainTag.classList = 'main-content';
+
+      tagBody.appendChild(mainTag);
+
+      // 3.
+
+      let sectionTag = document.createElement('section');
+
+      sectionTag.classList = 'center-content';
+
+      mainTag.appendChild(sectionTag);
       
+
 
     </script>
   </body>
