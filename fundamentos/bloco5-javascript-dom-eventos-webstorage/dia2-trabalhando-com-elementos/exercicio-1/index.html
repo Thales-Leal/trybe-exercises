@@ -121,22 +121,45 @@
 
       let ulTag = document.createElement("ul");
 
-      ulTag.classList = 'u-list';
+      ulTag.classList = "u-list";
 
       newSection2.appendChild(ulTag);
 
-      let umAteDez = ['um', 'dois', 'três', 'quatro', 'cinco', 'seis', 'sete', 'oito', 'nove', 'dez',];
+      let umAteDez = [
+        "um",
+        "dois",
+        "três",
+        "quatro",
+        "cinco",
+        "seis",
+        "sete",
+        "oito",
+        "nove",
+        "dez",
+      ];
 
-      let acharLista = document.getElementsByClassName('u-list');
+      let acharLista = document.getElementsByClassName("u-list");
 
       for (let index = 0; index < umAteDez.length; index += 1) {
-        let numero = umAteDez[index]; 
+        let numero = umAteDez[index];
 
-        let itemDaLista = document.createElement('li');
+        let itemDaLista = document.createElement("li");
         itemDaLista.innerText = numero;
 
         ulTag.appendChild(itemDaLista);
       }
+
+      // 9.
+
+      let oneH3 = document.createElement('h3');
+
+      let twoH3 = document.createElement('h3');
+
+      let threeH3 = document.createElement('h3');
+
+      mainTag.appendChild(oneH3);
+      mainTag.appendChild(twoH3);
+      mainTag.appendChild(threeH3);
 
     </script>
   </body>
