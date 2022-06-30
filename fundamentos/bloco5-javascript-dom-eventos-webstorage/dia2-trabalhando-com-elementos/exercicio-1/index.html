@@ -145,17 +145,18 @@
 
         let itemDaLista = document.createElement("li");
         itemDaLista.innerText = numero;
+        itemDaLista.classList = "li-list";
 
         ulTag.appendChild(itemDaLista);
       }
 
       // 9.
 
-      let oneH3 = document.createElement('h3');
+      let oneH3 = document.createElement("h3");
 
-      let twoH3 = document.createElement('h3');
+      let twoH3 = document.createElement("h3");
 
-      let threeH3 = document.createElement('h3');
+      let threeH3 = document.createElement("h3");
 
       mainTag.appendChild(oneH3);
       mainTag.appendChild(twoH3);
@@ -164,14 +165,14 @@
       // 10.
 
       let findH1 = document.body.firstElementChild.nextElementSibling;
-      
-      findH1.classList = 'title';
+
+      findH1.classList = "title";
 
       // 11.
 
-      oneH3.classList = 'description';
-      twoH3.classList = 'description';
-      threeH3.classList = 'description';
+      oneH3.classList = "description";
+      twoH3.classList = "description";
+      threeH3.classList = "description";
 
       // 12.
 
@@ -179,12 +180,23 @@
 
       // 13.
 
-      newSection2.style.marginRight = 'auto';
+      newSection2.style.marginRight = "auto";
 
       // 14.
 
-      sectionTag.style.backgroundColor = 'green';
+      sectionTag.style.backgroundColor = "green";
 
+      // 15.
+
+      let findLi = document.getElementsByClassName("li-list");
+
+      for (let idx = 0; idx < findLi.length; idx += 1) {
+        let num = findLi[idx];
+
+        if (num.innerText.includes('nove')) {
+          ulTag.removeChild(num);
+        }
+      }
     </script>
   </body>
 </html>
