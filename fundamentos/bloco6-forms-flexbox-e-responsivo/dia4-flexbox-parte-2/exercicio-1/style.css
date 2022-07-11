@@ -65,7 +65,7 @@ body {
 
 .card-container div {
   align-items: center;
-  background-color: #5C687C;
+  background-color: #5c687c;
   border: black solid 1px;
   display: flex;
   height: 150px;
@@ -78,9 +78,12 @@ body {
   flex-direction: column;
   margin: 20px;
   flex-basis: 350px;
+  align-self: center;
+  flex-grow: 1;
 }
 
-.aside-container h3, h4 {
+.aside-container h3,
+h4 {
   margin-bottom: 10px;
   text-align: center;
 }
