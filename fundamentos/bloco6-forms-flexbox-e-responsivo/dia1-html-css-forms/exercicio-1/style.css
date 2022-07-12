@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.page-header {
+  text-align: center;
+  background-color: #036b52;
+  width: 80%;
+  margin: 20px auto;
+  padding: 30px;
+  border: 2px solid #036b30;
+}
+.page-header h1, p {
+  color: white;
+  line-height: 60px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.page-header h1 {
+  font-size: 50px;
+}
+.form-tag {
+  background-color: #036b52;
+  border: 2px solid #036b30;
+  width: 80%;
+  margin: 20px auto;
+  padding: 30px;
+}
+.form-cntt {
+  margin-bottom: 20px;
+}
+.form-cntt label {
+  margin: 20px auto;
+  color: white;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 17px;
+}
+.line-cntt {
+  margin: 20px auto;
+  border: 0 none;
+}
+fieldset {
+  padding: 10px;
+  border-radius: 10px;
+  border-color: white;
+  text-align: center;
+}
+.form-cntt input[type="text"], input[type="email"], textarea {
+  background-color: white;
+  border: 1px solid #036b30;
+  border-radius: 1px;
+  width: 100%;
+  padding: 5px;
+  font-size: 14px;
+}
+.form-cntt input[type='date'] {
+    width: 20%;
+    text-align: center;
+    font-size: 17px;
+    border-radius: 10px;
+    border-style: none;
+    padding: 5px 20px;
+}
+.form-cntt legend {
+  color: white;
+  font-size: 17px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.form-cntt input[type='radio'] {
+    margin-left: 20px;
+}
+.form-cntt input[type='checkbox'] {
+    margin-bottom: 20px;
+}
+button{
+    cursor: pointer;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    padding: 5px 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border-style: none;
+}
